@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Overview</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1a1a1a, #333);
+            color: #e0e0e0; /* Light text color for better visibility */
+        }
+
+        header {
+            font-family: 'Georgia', serif;
+            background-color: #2e2c2c; /* Dark Green header background */
+            text-align: center;
+            padding: 20px 0; /* Increased padding for a more prominent header */
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px;
+            background-color: #2e2c2c;; /* Darker box background color */
+        }
+
+        td {
+            border: 10px solid #273642; /* Darker border color */
+            padding: 8px;
+            transition: transform 0.3s ease-in-out;
+            background-color: #2e2c2c;; /* Darker box background color */
+            border-radius: 15px; /* Rounded corners */
+        }
+
+        td:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-image {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .personal-info,
+        .educational-background,
+        .achievements {
+            background-color: #2e2c2c; /* Updated box background color */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            padding: 20px;
+            margin: 10px; /* Margin on all sides */
+        }
+
+        .personal-info h2,
+        .educational-background h2,
+        .achievements h2 {
+            margin-bottom: 10px;
+            color: #bdc3c7; /* Light text color */
+            text-align: center; /* Center the text */
+        }
+
+        .achievements ul,
+        .educational-background ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .educational-background {
+            text-align: left; /* Align the educational background table to the left */
+        }
+
+        .educational-background table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .educational-background th, .educational-background td {
+            border: 1px solid #273642;
+            padding: 8px;
+            background-color: #2e2c2c; /* Updated box background color */
+            color: #bdc3c7;
+            text-align: center; /* Center align the table cells */
+        }
+
+        .educational-background th {
+            background-color: #273642;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #2e2c2c; /* Darker footer background color */
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Journey Overview</h1>
+    </header>
+
+    <section>
+        <table>
+            <tr>
+                <!-- Box 1: Image -->
+                <td rowspan="3" style="width: 40%;">
+                    <img src="madhav.jpg" alt="Madhav" class="profile-image">
+                </td>
+                <!-- Box 2: Personal Info -->
+                <td class="personal-info" style="width: 60%;">
+                    <h2><strong>Madhav Soni</strong></h2>
+                    <p><strong>Date of Birth:</strong> January 1, 2004</p>
+                    <p><strong>Address:</strong> 123 MS Ramaiah Aryabhatta Block, MS Ramaiah Nagar, Bengaluru, Karnataka</p>
+                    <p><strong>Contact Information:</strong> madhav@gmail.com | 12345790</p>
+                </td>
+            </tr>
+            <tr>
+                <!-- Box 3: Educational Background -->
+                <td class="educational-background">
+                    <h2><strong>Educational Background</strong></h2>
+                    <table>
+                        <tr>
+                            <th>Exam</th>
+                            <th>Marks/Grades</th>
+                            <th>School/College</th>
+                        </tr>
+                        <tr>
+                            <td>10th</td>
+                            <td>%</td>
+                            <td>School</td>
+                        </tr>
+                        <tr>
+                            <td>12th</td>
+                            <td>%</td>
+                            <td>School</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <!-- Box 4: Achievements -->
+                <td class="achievements">
+                    <h2><strong>Achievements</strong></h2>
+                    <ul>
+                        <li>Recipient of XYZ Award for Excellence in Programming</li>
+                        <li>Published research paper in ABC Journal</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Journey Overview Page</p>
+    </footer>
+</body>
+</html>

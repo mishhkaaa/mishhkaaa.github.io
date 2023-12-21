@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1a1a1a, #333);
+            color: #e0e0e0; /* Light text color for better visibility */
+        }
+
+        header {
+            background-color: #333;
+            text-align: center;
+            padding: 20px 0; /* Increased padding for a more prominent header */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #fff;
+            font-family: 'serif'; /* Added serif font-family */
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        table {
+            background-color: #333; /* Darker background for developer cards */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            margin: 15px;
+            width: 100%; /* Updated width to 100% */
+            transition: transform 0.3s ease-in-out;
+        }
+
+        table:hover {
+            transform: scale(1.05);
+        }
+
+        .developer-image {
+            width: 100%; /* Updated width to 100% */
+            height: auto; /* Allow the image to adjust its height proportionally */
+            object-fit: cover;
+            border-radius: 10px 10px 0 0; /* Rounded corners for the top */
+        }
+
+        .developer-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .developer-info h1 {
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .developer-info p {
+            color: #ccc; /* Lighter text color for paragraph */
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Added anchor styles */
+        a {
+            text-decoration: none; /* Remove underline */
+            color: inherit; /* Inherit text color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biodata</h1>
+    </header>
+
+    <section>
+        <!-- Developer 1 (Align to the left) -->
+        <a href="mishka.html">
+            <table>
+                <tr>
+                    <td>
+                        <img src="mishka.jpg" alt="Mishka" class="developer-image">
+                    </td>
+                    <td class="developer-info">
+                        <h1>Mishka</h1>
+                        <p>Full Stack Developer</p>
+                        <p>Passionate about creating robust web applications and solving complex problems.</p>
+                    </td>
+                </tr>
+            </table>
+        </a>
+
+        <!-- Developer 2 (Align to the extreme right) -->
+        <a href="nikhil.html">
+            <table>
+                <tr>
+                    <td class="developer-info">
+                        <h1>Nikhil</h1>
+                        <p>UI/UX Designer</p>
+                        <p>Bringing creative and user-friendly designs to enhance the user experience.</p>
+                    </td>
+                    <td>
+                        <a href="nikhil.html"><img src="nikhil.jpg" alt="Nikhil" class="developer-image"></a>
+                    </td>
+                </tr>
+            </table>
+        </a>
+
+        <!-- Developer 3 (Align to the left) -->
+        <a href="madhav.html">
+            <table>
+                <tr>
+                    <td>
+                        <img src="madhav.jpg" alt="Madhav" class="developer-image">
+                    </td>
+                    <td class="developer-info">
+                        <h1>Madhav</h1>
+                        <p>Data Scientist</p>
+                        <p>Passionate about deriving insights from data and implementing machine learning models.</p>
+                    </td>
+                </tr>
+            </table>
+        </a>
+
+        <!-- Developer 4 (Align to the extreme right) -->
+        <a href="adil.html">
+            <table>
+                <tr>
+                    <td class="developer-info">
+                        <h1>Adil</h1>
+                        <p>Mobile App Developer</p>
+                        <p>Building innovative and efficient mobile applications for a seamless user experience.</p>
+                    </td>
+                    <td>
+                        <a href="adil.html"><img src="adil.jpg" alt="Adil" class="developer-image"></a>
+                    </td>
+                </tr>
+            </table>
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Biodata. All rights reserved.</p>
+    </footer>
+</body>
+</html>

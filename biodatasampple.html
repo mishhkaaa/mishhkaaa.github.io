@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .biodata-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 80%;
+            max-width: 600px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .biodata-container:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .personal-info {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .personal-info h1 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .personal-info p {
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .achievements {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .achievements h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .achievements ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .educational-background {
+            padding: 20px;
+        }
+
+        .educational-background h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .educational-background ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Extraordinary Biodata</h1>
+    </header>
+
+    <section>
+        <div class="biodata-container">
+            <img src="profile-photo.jpg" alt="Profile Photo" class="profile-image">
+            <div class="personal-info">
+                <h1>John Doe</h1>
+                <p><strong>Date of Birth:</strong> January 1, 1990</p>
+                <p><strong>Address:</strong> 123 Main Street, Cityville</p>
+                <p><strong>Contact Information:</strong> john.doe@email.com | (123) 456-7890</p>
+            </div>
+
+            <div class="achievements">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Recipient of XYZ Award for Excellence in Programming</li>
+                    <li>Published research paper in ABC Journal</li>
+                </ul>
+            </div>
+
+            <div class="educational-background">
+                <h2>Educational Background</h2>
+                <ul>
+                    <li>Bachelor of Science in Computer Science - University of Tech, Year</li>
+                    <li>Master of Science in Information Technology - Institute of Tech, Year</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Extraordinary Biodata Page</p>
+    </footer>
+</body>
+</html>
