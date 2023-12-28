@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Card</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1a1a1a, #333);
+            color: #e0e0e0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .developer-card {
+            background-color: #424242;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 80%; /* Increased size to 80% of the viewport width */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .card-info {
+            flex-grow: 1;
+        }
+
+        .card-info h2 {
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="developer-card">
+        <img src="mishka.jpg" alt="Mishka" class="profile-image">
+        <div class="card-info">
+            <h2>Mishka Tiwari</h2>
+            <p>Passionate Developer</p>
+            <p><strong>Email:</strong> mishka@gmail.com</p>
+            <p><strong>Phone:</strong> 123457890</p>
+            <p><strong>Address:</strong> 123 MS Ramaiah North Point Girls Living-1, MS Ramaiah Nagar, Bengaluru, Karnataka</p>
+        </div>
+    </div>
+</body>
+</html>

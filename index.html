@@ -15,7 +15,7 @@
 
         header {
             font-family: 'Georgia', serif;
-            background-color: #2e2c2c; /* Dark Green header background */
+            background-color: #2e2c2c; /* Dark Grey header background */
             text-align: center;
             padding: 40px 0; /* Increased padding for a more prominent header */
         }
@@ -29,6 +29,8 @@
 
         section {
             display: flex;
+            justify-content: space-around; /* Center-align and distribute space evenly */
+            flex-wrap: wrap; /* Allow wrapping to the next line */
             flex-direction: column; /* Stack tables vertically */
             align-items: center; /* Center-align tables */
             padding: 20px;
@@ -40,7 +42,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             overflow: hidden;
             margin: 15px;
-            width: 100%; /* Set a fixed width for better readability */
+            width: 600px; /* Set a fixed width for consistent size */
             transition: transform 0.3s ease-in-out;
         }
 
@@ -49,10 +51,10 @@
         }
 
         .developer-image {
-            width: 100%; /* Updated width to 100% */
-            height: 50%; /* Allow the image to adjust its height proportionally */
+            width: 100%;
+            height: 70%; /* Adjust the height percentage as needed */
             object-fit: cover;
-            border-radius: 10px 10px 0 0; /* Rounded corners for the top */
+            border-radius: 10px 10px 0 0;
         }
 
         .developer-info {
@@ -66,18 +68,15 @@
         }
 
         .developer-info p {
-            color: #ccc; /* Lighter text color for paragraph */
+            color: #ccc;
             margin: 5px 0;
         }
 
-        footer {
-            background-color: #2e2c2c; /* Dark footer background */
+        .column-footer {
+            background-color: #2e2c2c; /* Dark Grey footer background */
             color: #fff;
             text-align: center;
-            padding: 1px 0; /* Decreased footer size */
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 8px 0; /* Adjust the padding as needed */
         }
 
         /* Added anchor styles */
@@ -107,6 +106,11 @@
                         <p>Passionate about creating robust web applications and solving complex problems.</p>
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="2" class="column-footer">
+                        Click for more info
+                    </td>
+                </tr>
             </table>
         </a>
         <!-- Developer 2 (Align to the extreme right) -->
@@ -121,6 +125,11 @@
                     </td>
                     <td>
                         <a href="nikhil.html"><img src="nikhil.jpeg" alt="Nikhil" class="developer-image"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="column-footer">
+                        Click for more info
                     </td>
                 </tr>
             </table>
@@ -140,6 +149,11 @@
                         <p>Passionate about deriving insights from data and implementing machine learning models.</p>
                     </td>
                 </tr>
+                <tr>
+                    <td colspan="2" class="column-footer">
+                        Click for more info
+                    </td>
+                </tr>
             </table>
         </a>
 
@@ -155,6 +169,11 @@
                     </td>
                     <td>
                         <a href="adil.html"><img src="adil.jpeg" alt="Adil" class="developer-image"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="column-footer">
+                        Click for more info
                     </td>
                 </tr>
             </table>

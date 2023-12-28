@@ -15,7 +15,7 @@
 
         header {
             font-family: 'Georgia', serif;
-            background-color: #2e2c2c; /* Dark Green header background */
+            background-color: #2e2c2c; /* Dark header background */
             text-align: center;
             padding: 20px 0; /* Increased padding for a more prominent header */
         }
@@ -107,11 +107,14 @@
         margin: 0;
         }
 
-        footer {
-            background-color: #2e2c2c; /* Darker footer background color */
-            color: #fff;
+        .personal-info footer,
+        .educational-background footer,
+        .achievements footer {
+            background-color: #424242; /* Light grey background color for the footer */
+            color: #fff; /* Darker text color for better visibility on light background */
             text-align: center;
-            padding: 15px;
+            padding: 8px;
+            font-size: 10px;
         }
     </style>
 </head>
@@ -129,43 +132,53 @@
                 </td>
                 <!-- Box 2: Personal Info -->
                 <td class="personal-info" style="width: 60%;">
-                    <h2><strong>Mishka Tiwari</strong></h2>
-                    <p><strong>Date of Birth:</strong> October 22, 2004</p>
-                    <p><strong>Address:</strong> 123 MS Ramaiah North Point Girls Living-1, MS Ramaiah Nagar, Bengaluru, Karnataka</p>
-                    <p><strong>Contact Information:</strong> mishka@gmail.com | 12345790</p>
+                    <a href="mishkainfo.html" style="text-decoration: none; color: inherit;">
+                        <h2><strong>Mishka Tiwari</strong></h2>
+                        <p><strong>Date of Birth:</strong> October 22, 2004</p>
+                        <p><strong>Address:</strong> 123 MS Ramaiah North Point Girls Living-1, MS Ramaiah Nagar, Bengaluru, Karnataka</p>
+                        <p><strong>Contact Information:</strong> mishka@gmail.com | 123457890</p>
+                        <footer>Click for more info</footer>
+                    </a>
                 </td>
             </tr>
             <tr>
                 <!-- Box 3: Educational Background -->
                 <td class="educational-background">
-                    <h2><strong>Educational Background</strong></h2>
-                    <table>
-                        <tr>
-                            <th>Exam</th>
-                            <th>Marks/Grades</th>
-                            <th>School/College</th>
-                        </tr>
-                        <tr>
-                            <td>10th</td>
-                            <td>97.4%</td>
-                            <td>Mercy Memorial School</td>
-                        </tr>
-                        <tr>
-                            <td>12th</td>
-                            <td>95%</td>
-                            <td>Mercy Memorial School</td>
-                        </tr>
-                    </table>
+                    <a href="mishkaedubg.html" style="text-decoration: none; color: inherit;">
+                        <h2><strong>Educational Background</strong></h2>
+                        <table>
+                            <tr>
+                                <th>Exam</th>
+                                <th>Marks/Grades</th>
+                                <th>School/College</th>
+                            </tr>
+                            <tr>
+                                <td>10th</td>
+                                <td>97.4%</td>
+                                <td>Mercy Memorial School</td>
+                            </tr>
+                            <tr>
+                                <td>12th</td>
+                                <td>95%</td>
+                                <td>Mercy Memorial School</td>
+                            </tr>
+                        </table>
+                        <footer>Click for more info</footer>
+                    </a>
                 </td>
             </tr>
             <tr>
                 <!-- Box 4: Achievements -->
                 <td class="achievements">
-                    <h2><strong>Achievements</strong></h2>
-                    <ul>
-                        <li>Recipient of XYZ Award for Excellence in Programming</li>
-                        <li>Published research paper in ABC Journal</li>
-                    </ul>
+                    <a href="mishkaachieve.html" style="text-decoration: none; color: inherit;">
+                        <h2><strong>Achievements</strong></h2>
+                        <ul>
+                            <li>Recipient of XYZ Award for Excellence in Programming</li>
+                            <li>Published research paper in ABC Journal</li>
+                        </ul>
+                        <br>
+                        <footer>Click for more info</footer>
+                    </a>
                 </td>
             </tr>
         </table>
