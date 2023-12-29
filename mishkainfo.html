@@ -1,57 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Developer Card</title>
+    <!-- CSS styles for styling the webpage -->
     <style>
+        /* Body styling */
         body {
-            font-family: 'Georgia', serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #1a1a1a, #333);
-            color: #e0e0e0;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            font-family: 'Georgia', serif;  /* Set the font family for the entire page */
+            margin: 0;                      /* Remove default margin */
+            padding: 0;                     /* Remove default padding */
+            background: linear-gradient(to right, #1a1a1a, #333); /* Apply a linear gradient background */
+            color: #e0e0e0;                 /* Set text color */
+            text-align: center;             /* Center-align text */
+            display: flex;                  /* Use flexbox for layout */
+            align-items: center;            /* Center vertically */
+            justify-content: center;        /* Center horizontally */
+            height: 100vh;                  /* Use 100% of the viewport height */
         }
 
+        /* Developer card styling */
         .developer-card {
-            background-color: #424242;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 80%; /* Increased size to 80% of the viewport width */
-            padding: 20px;
-            display: flex;
-            align-items: center;
-            text-align: center;
+            background-color: #424242;      /* Set background color for the developer card */
+            border-radius: 10px;            /* Apply rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+            max-width: 80%;                 /* Limit the maximum width of the card */
+            padding: 20px;                  /* Add padding inside the card */
+            display: flex;                  /* Use flexbox for layout */
+            align-items: center;            /* Center content vertically */
+            text-align: center;             /* Center-align text inside the card */
         }
 
+        /* Profile image styling */
         .profile-image {
-            width: 150px;
-            height: auto;
-            border-radius: 50%;
-            margin-right: 20px;
+            width: 150px;                   /* Set a fixed width for the profile image */
+            height: auto;                   /* Maintain aspect ratio for responsiveness */
+            border-radius: 50%;             /* Create a circular border for the image */
+            margin-right: 20px;             /* Add some spacing to the right of the image */
         }
 
+        /* Card information styling */
         .card-info {
-            flex-grow: 1;
+            flex-grow: 1;                   /* Allow the card information to grow within the flex container */
         }
 
+        /* Heading 2 styling inside card information */
         .card-info h2 {
-            margin-bottom: 10px;
+            margin-bottom: 10px;            /* Add margin below the heading for spacing */
         }
-        
     </style>
 </head>
 <body>
+    <!-- Developer card container -->
     <div class="developer-card">
+        <!-- Profile image -->
         <img src="mishka.jpg" alt="Mishka" class="profile-image">
+        <!-- Container for card information -->
         <div class="card-info">
+            <!-- Developer's name -->
             <h2>Mishka Tiwari</h2>
+            <!-- Developer's description -->
             <p>Passionate Developer</p>
+            <!-- Contact information -->
             <p><strong>Email:</strong> mishka@gmail.com</p>
             <p><strong>Phone:</strong> 123457890</p>
             <p><strong>Address:</strong> 123 MS Ramaiah North Point Girls Living-1, MS Ramaiah Nagar, Bengaluru, Karnataka</p>

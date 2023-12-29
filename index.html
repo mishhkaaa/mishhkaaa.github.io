@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechCraft Portfolios</title>
     <style>
+        /* General styling for the entire page */
         body {
             font-family: 'Georgia', serif;
             margin: 0;
@@ -13,6 +14,7 @@
             color: #e0e0e0; /* Light text color for better visibility */
         }
 
+        /* Styling for the header section */
         header {
             font-family: 'Georgia', serif;
             background-color: #2e2c2c; /* Dark Grey header background */
@@ -20,6 +22,7 @@
             padding: 40px 0; /* Increased padding for a more prominent header */
         }
 
+        /* Styling for the main heading */
         h1 {
             margin: 0;
             font-size: 36px; /* Increased header font size */
@@ -27,6 +30,7 @@
             font-family: 'serif'; /* Added serif font-family */
         }
 
+        /* Styling for the main content section */
         section {
             display: flex;
             justify-content: space-around; /* Center-align and distribute space evenly */
@@ -36,6 +40,7 @@
             padding: 20px;
         }
 
+        /* Styling for individual developer cards */
         table {
             background-color: #424242; /* Darker background for developer cards */
             border-radius: 10px;
@@ -46,10 +51,12 @@
             transition: transform 0.3s ease-in-out;
         }
 
+        /* Hover effect for developer cards */
         table:hover {
             transform: scale(1.05);
         }
 
+        /* Styling for developer images */
         .developer-image {
             width: 100%;
             height: 70%; /* Adjust the height percentage as needed */
@@ -57,21 +64,25 @@
             border-radius: 10px 10px 0 0;
         }
 
+        /* Styling for developer information */
         .developer-info {
             padding: 15px;
             text-align: center;
         }
 
+        /* Styling for developer names */
         .developer-info h2 {
             margin-bottom: 10px;
             color: #fff;
         }
 
+        /* Styling for additional developer details */
         .developer-info p {
             color: #ccc;
             margin: 5px 0;
         }
 
+        /* Styling for the column footer */
         .column-footer {
             background-color: #2e2c2c; /* Dark Grey footer background */
             color: #fff;
@@ -79,12 +90,13 @@
             padding: 8px 0; /* Adjust the padding as needed */
         }
 
+        /* Styling for the footer section */
         footer {
             color: #fff;
             text-align: center;
         }
 
-        /* Added anchor styles */
+        /* Styling for anchor (link) elements */
         a {
             text-decoration: none; /* Remove underline */
             color: inherit; /* Inherit text color */
@@ -92,19 +104,23 @@
     </style>
 </head>
 <body>
+    <!-- Header section with the main heading -->
     <header>
         <h1>TechCraft Portfolios</h1>
     </header>
 
+    <!-- Main content section containing developer cards -->
     <section>
         <!-- Developer 1 (Align to the left) -->
         <a href="mishka.html">
             <table>
                 <tr>
                     <td>
+                        <!-- Developer 1 image -->
                         <img src="mishka.jpg" alt="Mishka" class="developer-image">
                     </td>
                     <td class="developer-info">
+                        <!-- Developer 1 information -->
                         <h2><strong>Mishka Tiwari</strong></h2>
                         <p>Computer Science and Engineering</p><br>
                         <p>USN: 1MS23CS045-T<br>Roll No: CS098</p><br>
@@ -112,27 +128,32 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- Developer 1 card footer -->
                     <td colspan="2" class="column-footer">
                         Click for more info
                     </td>
                 </tr>
             </table>
         </a>
+
         <!-- Developer 2 (Align to the extreme right) -->
         <a href="nikhil.html">
             <table>
                 <tr>
                     <td class="developer-info">
+                        <!-- Developer 2 information -->
                         <h2><strong>Nikhil Kumar Yadav</strong></h2>
                         <p>Computer Science and Engineering</p><br>
                         <p>USN: 1MS23CS086-T<br>Roll No: CS109</p><br>
                         <p>Bringing creative and user-friendly designs to enhance the user experience.</p>
                     </td>
                     <td>
+                        <!-- Developer 2 image -->
                         <a href="nikhil.html"><img src="nikhil.jpeg" alt="Nikhil" class="developer-image"></a>
                     </td>
                 </tr>
                 <tr>
+                    <!-- Developer 2 card footer -->
                     <td colspan="2" class="column-footer">
                         Click for more info
                     </td>
@@ -145,9 +166,11 @@
             <table>
                 <tr>
                     <td>
+                        <!-- Developer 3 image -->
                         <img src="madhav.jpg" alt="Madhav" class="developer-image">
                     </td>
                     <td class="developer-info">
+                        <!-- Developer 3 information -->
                         <h2><strong>Madhav Soni</strong></h2>
                         <p>Computer Science and Engineering</p><br>
                         <p>USN: 1MS23CS084-T<br>Roll No: CS088</p><br>
@@ -155,6 +178,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- Developer 3 card footer -->
                     <td colspan="2" class="column-footer">
                         Click for more info
                     </td>
@@ -167,16 +191,19 @@
             <table>
                 <tr>
                     <td class="developer-info">
+                        <!-- Developer 4 information -->
                         <h2><strong>Adil Khan</strong></h2>
                         <p>Computer Science and Engineering</p><br>
                         <p>USN: 1MS23CS054-T<br>Roll No: CS100</p><br>
                         <p>Building innovative and efficient mobile applications for a seamless user experience.</p>
                     </td>
                     <td>
+                        <!-- Developer 4 image -->
                         <a href="adil.html"><img src="adil.jpeg" alt="Adil" class="developer-image"></a>
                     </td>
                 </tr>
                 <tr>
+                    <!-- Developer 4 card footer -->
                     <td colspan="2" class="column-footer">
                         Click for more info
                     </td>
@@ -185,7 +212,9 @@
         </a>
     </section>
 
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright notice -->
         <p><small>&copy; 2023 TechCraft Portfolios. All rights reserved.</small></p>
     </footer>
 </body>

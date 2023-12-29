@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Journey Overview</title>
+    <!-- CSS styles for styling the webpage -->
     <style>
+        /* General styling for the entire page */
         body {
             font-family: 'Georgia', serif;
             margin: 0;
@@ -13,6 +17,7 @@
             color: #e0e0e0; /* Light text color for better visibility */
         }
 
+        /* Styling for the header section */
         header {
             font-family: 'Georgia', serif;
             background-color: #2e2c2c; /* Dark header background */
@@ -20,6 +25,7 @@
             padding: 20px 0; /* Increased padding for a more prominent header */
         }
 
+        /* Styling for the main content section */
         section {
             display: flex;
             justify-content: center;
@@ -27,6 +33,7 @@
             padding: 20px;
         }
 
+        /* Styling for the main table */
         table {
             border-collapse: collapse;
             width: 80%;
@@ -34,6 +41,7 @@
             background-color: #2e2c2c;; /* Darker box background color */
         }
 
+        /* Styling for individual cells in the table */
         td {
             border: 10px solid #273642; /* Darker border color */
             padding: 8px;
@@ -42,16 +50,19 @@
             border-radius: 15px; /* Rounded corners */
         }
 
+        /* Hover effect for cells in the table */
         td:hover {
             transform: scale(1.05);
         }
 
+        /* Styling for profile images */
         .profile-image {
             width: 100%;
             height: auto;
             object-fit: cover;
         }
 
+        /* Styling for different sections of the page */
         .personal-info,
         .educational-background,
         .achievements {
@@ -63,6 +74,7 @@
             margin: 10px; /* Margin on all sides */
         }
 
+        /* Styling for headers in different sections */
         .personal-info h2,
         .educational-background h2,
         .achievements h2 {
@@ -71,6 +83,7 @@
             text-align: center; /* Center the text */
         }
 
+        /* Styling for lists in achievements and educational background */
         .achievements ul,
         .educational-background ul {
             list-style: none;
@@ -78,16 +91,19 @@
             margin: 0;
         }
 
+        /* Styling for educational background section */
         .educational-background {
             text-align: left; /* Align the educational background table to the left */
         }
 
+        /* Styling for the table inside educational background section */
         .educational-background table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 10px;
         }
 
+        /* Styling for table headers and cells inside educational background section */
         .educational-background th, .educational-background td {
             border: 1px solid #273642;
             padding: 8px;
@@ -96,17 +112,20 @@
             text-align: center; /* Center align the table cells */
         }
 
+        /* Styling for table headers in educational background section */
         .educational-background th {
             background-color: #273642;
             color: #fff;
         }
 
+        /* Styling for list items in achievements section */
         .achievements ul {
-        list-style-type: disc; /* Use bullets */
-        padding: 0;
-        margin: 0;
+            list-style-type: disc; /* Use bullets */
+            padding: 0;
+            margin: 0;
         }
 
+        /* Styling for footers in different sections */
         .personal-info footer,
         .educational-background footer,
         .achievements footer {
@@ -117,6 +136,7 @@
             font-size: 10px;
         }
 
+        /* Styling for the page footer */
         footer {
             background-color: #2e2c2c; /* Darker footer background color */
             color: #fff;
@@ -126,12 +146,16 @@
     </style>
 </head>
 <body>
+    <!-- Header section with the main heading -->
     <header>
         <h1>Journey Overview</h1>
     </header>
 
+    <!-- Main content section containing a table with different sections -->
     <section>
+        <!-- Main table with three rows and multiple columns -->
         <table>
+            <!-- First row containing three cells (boxes) -->
             <tr>
                 <!-- Box 1: Image -->
                 <td rowspan="3" style="width: 40%;">
@@ -139,20 +163,25 @@
                 </td>
                 <!-- Box 2: Personal Info -->
                 <td class="personal-info" style="width: 60%;">
+                    <!-- Link to additional information -->
                     <a href="mishkainfo.html" style="text-decoration: none; color: inherit;">
                         <h2><strong>Mishka Tiwari</strong></h2>
+                        <!-- Personal information details -->
                         <p><strong>Date of Birth:</strong> October 22, 2004</p>
                         <p><strong>Address:</strong> 123 MS Ramaiah North Point Girls Living-1, MS Ramaiah Nagar, Bengaluru, Karnataka</p>
                         <p><strong>Contact Information:</strong> mishka@gmail.com | 123457890</p>
+                        <!-- Footer with a link for more information -->
                         <footer>Click for more info</footer>
                     </a>
                 </td>
             </tr>
+            <!-- Second row containing one cell for Educational Background -->
             <tr>
-                <!-- Box 3: Educational Background -->
                 <td class="educational-background">
+                    <!-- Link to additional information -->
                     <a href="mishkaedubg.html" style="text-decoration: none; color: inherit;">
                         <h2><strong>Educational Background</strong></h2>
+                        <!-- Table displaying educational background details -->
                         <table>
                             <tr>
                                 <th>Exam</th>
@@ -170,20 +199,24 @@
                                 <td>Mercy Memorial School</td>
                             </tr>
                         </table>
+                        <!-- Footer with a link for more information -->
                         <footer>Click for more info</footer>
                     </a>
                 </td>
             </tr>
+            <!-- Third row containing one cell for Achievements -->
             <tr>
-                <!-- Box 4: Achievements -->
                 <td class="achievements">
+                    <!-- Link to additional information -->
                     <a href="mishkaachieve.html" style="text-decoration: none; color: inherit;">
                         <h2><strong>Achievements</strong></h2>
+                        <!-- Unordered list displaying achievements -->
                         <ul>
                             <li>Recipient of XYZ Award for Excellence in Programming</li>
                             <li>Published research paper in ABC Journal</li>
                         </ul>
                         <br>
+                        <!-- Footer with a link for more information -->
                         <footer>Click for more info</footer>
                     </a>
                 </td>
@@ -191,6 +224,7 @@
         </table>
     </section>
 
+    <!-- Page footer -->
     <footer>
         <p>&copy; 2023 Journey Overview Page</p>
     </footer>
